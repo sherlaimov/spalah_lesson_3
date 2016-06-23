@@ -1,8 +1,10 @@
+@import "base/_reset.scss";
 // - utils
 @import "utils/variables";
 @import "utils/mixins";
 @import "utils/extends";
 // - layout
-@import "layout/header";
-
+//@import "layout/heade
+@import "pages/home_first";
+@import "pages/home_second";
 

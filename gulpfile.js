@@ -11,6 +11,7 @@ gulp.task('serve', ['sass'], function() {
 		port: 3010
 	});
 	gulp.watch("./stylesheet/**/*.scss", ['sass']);
+	gulp.watch("./*.html").on('change', browserSync.reload);
 });
  
 gulp.task('sass', function () {
